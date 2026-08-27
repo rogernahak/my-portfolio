@@ -11,7 +11,7 @@
     <style>
         /* Palet Warna Kustom - Psikologi Kepercayaan & Profesionalisme */
         :root {
-            --primary-navy: #0d233a; /* Warna mirip Palm Springs */
+            --primary-navy: #0d233a; /* Navy Palm Springs Style */
             --accent-gold: #d4af37;
             --light-bg: #f8f9fa;
         }
@@ -24,6 +24,7 @@
         .section-padding { padding: 80px 0; }
         .card-project { transition: transform 0.3s; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
         .card-project:hover { transform: translateY(-5px); }
+        .badge-compliance { background-color: #ffc107; color: #000; font-weight: 600; }
     </style>
 </head>
 <body>
@@ -39,7 +40,7 @@
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Keahlian IT</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Portofolio Sistem</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Portofolio & Studi Kasus</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
                 </ul>
             </div>
@@ -49,9 +50,9 @@
     <!-- HERO SECTION -->
     <section class="hero-section bg-navy text-center">
         <div class="container">
-            <h1 class="display-4 fw-bold mb-3">Arsitektur Sistem & Infrastruktur IT</h1>
-            <p class="lead mb-4">Saya membangun sistem otomasi cerdas, mengamankan infrastruktur server, dan mengoptimalkan operasional bisnis berbasis teknologi.</p>
-            <a href="#projects" class="btn btn-custom btn-lg px-4 me-2">Lihat Sistem Saya</a>
+            <h1 class="display-4 fw-bold mb-3">Arsitektur Jaringan, Sistem & Infrastruktur IT</h1>
+            <p class="lead mb-4">Saya merancang infrastruktur jaringan yang stabil, mengamankan server, dan membangun sistem otomasi cerdas berbasis teknologi enterprise.</p>
+            <a href="#projects" class="btn btn-custom btn-lg px-4 me-2">Lihat Portofolio Sistem</a>
             <a href="CV_Philipus_Rogerio_Nahak.pdf" target="_blank" class="btn btn-outline-light btn-lg px-4">Unduh CV (PDF)</a>
         </div>
     </section>
@@ -62,17 +63,17 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4">
                     <h2 class="text-navy fw-bold border-bottom pb-2 mb-4">Profil & Rekam Jejak</h2>
-                    <p>Halo, saya <strong>Philipus Rogerio Nahak, S.Kom.</strong>, lulusan Teknik Informatika dari STIKOM Uyelindo Kupang . Saya memiliki spesialisasi dalam pengembangan <em>backend</em>, pengelolaan basis data, dan manajemen <em>Virtual Private Server</em> (VPS) .</p>
-                    <p>Dalam perjalanan karir saya, saya pernah dipercaya sebagai <strong>Admin Portal Website di Bappeda Kabupaten Malaka</strong> . Pengalaman ini membentuk kedisiplinan saya dalam menjaga integritas data instansi resmi dan memastikan <em>uptime</em> sistem publik berjalan tanpa kendala .</p>
+                    <p>Halo, saya <strong>Philipus Rogerio Nahak, S.Kom.</strong>, lulusan Teknik Informatika dari STIKOM Uyelindo Kupang. Saya memiliki keahlian komprehensif dalam arsitektur jaringan LAN/VoIP, manajemen Virtual Private Server (VPS Linux), serta pengembangan sistem backend dan AI.</p>
+                    <p>Rekam jejak profesional dan proyek saya mencakup pengelolaan portal resmi <strong>Bappeda Kabupaten Malaka</strong>, implementasi fisik jaringan LAN & IP-PBX di <strong>RS Leona Kupang</strong> (berkolaborasi dengan praktisi IT profesional), pengembangan aplikasi keuangan untuk internal Bank Indonesia Kupang, hingga tata kelola risiko kepatuhan IT.</p>
                 </div>
                 <div class="col-lg-6">
                     <div class="card shadow-sm border-0">
                         <div class="card-body bg-white rounded p-4">
                             <h5 class="text-navy fw-bold"><i class="bi bi-briefcase-fill me-2"></i> Fokus Manajerial IT:</h5>
                             <ul class="list-unstyled mt-3">
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Efisiensi Operasional:</strong> Mengotomatisasi proses bisnis yang berulang menggunakan AI dan skrip terjadwal .</li>
-                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Keamanan Infrastruktur:</strong> Menerapkan standar autentikasi dan menjaga stabilitas server .</li>
-                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Pemecahan Masalah Sistemik:</strong> Menganalisis dan merestrukturisasi <em>bottleneck</em> pada jaringan dan basis data .</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Infrastruktur & Jaringan 24/7:</strong> Menjamin stabilitas LAN, IP-PBX/VoIP, dan konektivitas antardepartemen tanpa downtime.</li>
+                                <li class="mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Tata Kelola & Kepatuhan IT (Compliance):</strong> Mengelola hak akses, lisensi, dan manajemen risiko sistem sesuai regulasi resmi.</li>
+                                <li><i class="bi bi-check-circle-fill text-success me-2"></i> <strong>Efisiensi Operasional Bisnis:</strong> Mengotomatisasi proses kerja rumit (seperti roster shift, administrasi, & layanan informasi) menggunakan ekosistem digital.</li>
                             </ul>
                         </div>
                     </div>
@@ -90,36 +91,36 @@
                 <!-- Skill 1 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="p-4 border rounded shadow-sm h-100">
-                        <i class="bi bi-hdd-network display-4 text-navy mb-3"></i>
-                        <h5 class="fw-bold">Manajemen Server & VPS</h5>
-                        <p class="text-muted small">Mengelola <em>Live</em> VPS Linux, implementasi panel server, dan keamanan otentikasi SSH Key .</p>
+                        <i class="bi bi-diagram-3-fill display-4 text-navy mb-3"></i>
+                        <h5 class="fw-bold">Jaringan LAN & Telepon VoIP</h5>
+                        <p class="text-muted small">Instalasi infrastruktur UTP/RJ45, manajemen switch, dan implementasi sistem IP-PBX interkom tanpa pulsa publik.</p>
                     </div>
                 </div>
                 
                 <!-- Skill 2 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="p-4 border rounded shadow-sm h-100">
-                        <i class="bi bi-cpu display-4 text-navy mb-3"></i>
-                        <h5 class="fw-bold">Backend & AI Algorithm</h5>
-                        <p class="text-muted small">Logika PHP tingkat lanjut, pembuatan algoritma optimasi, dan otomatisasi via <em>Cron Jobs</em> .</p>
+                        <i class="bi bi-router display-4 text-navy mb-3"></i>
+                        <h5 class="fw-bold">MikroTik & Bandwidth Control</h5>
+                        <p class="text-muted small">Konfigurasi MikroTik RB750, alokasi hak akses kuota, pembatasan waktu (time-limit), dan sistem voucher hotspot.</p>
                     </div>
                 </div>
                 
                 <!-- Skill 3 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="p-4 border rounded shadow-sm h-100">
-                        <i class="bi bi-database-check display-4 text-navy mb-3"></i>
-                        <h5 class="fw-bold">Database & Integrasi</h5>
-                        <p class="text-muted small">Arsitektur SQL, keamanan transaksi data, integrasi API, dan sistem notifikasi otomatis .</p>
+                        <i class="bi bi-hdd-stack display-4 text-navy mb-3"></i>
+                        <h5 class="fw-bold">Manajemen Server & VPS</h5>
+                        <p class="text-muted small">Pengelolaan Live Linux (Debian) VPS, konfigurasi web server, otentikasi SSH Key, dan pemeliharaan uptime server.</p>
                     </div>
                 </div>
 
                 <!-- Skill 4 -->
                 <div class="col-md-6 col-lg-3">
                     <div class="p-4 border rounded shadow-sm h-100">
-                        <i class="bi bi-pc-display display-4 text-navy mb-3"></i>
-                        <h5 class="fw-bold">IT Ops & End-User Support</h5>
-                        <p class="text-muted small"><em>Troubleshooting</em> jaringan, perangkat keras (PC/Laptop), serta pemeliharaan <em>software</em> untuk kelancaran operasional staf .</p>
+                        <i class="bi bi-cpu display-4 text-navy mb-3"></i>
+                        <h5 class="fw-bold">Backend & AI Integration</h5>
+                        <p class="text-muted small">Pengembangan backend PHP, arsitektur database SQL, algoritma optimasi, dan integrasi API modern (JWT/Generative AI).</p>
                     </div>
                 </div>
 
@@ -130,60 +131,129 @@
     <!-- PROJECTS / STUDI KASUS -->
     <section id="projects" class="section-padding bg-light-bg">
         <div class="container">
-            <h2 class="text-navy fw-bold text-center mb-5">Implementasi Sistem & Inovasi Logika</h2>
+            <h2 class="text-navy fw-bold text-center mb-5">Portofolio Sistem & Rekam Jejak Infrastruktur</h2>
             <div class="row g-4">
-                
-                <!-- Bintang Utama 1: Roster Engine -->
+
+                <!-- 1. Proyek Rumah Sakit Leona (LAN & IP-PBX) - VERSI REVISI -->
                 <div class="col-lg-12 mb-4">
-                    <div class="card card-project flex-md-row">
+                    <div class="card card-project flex-md-row border-start border-4 border-success">
                         <div class="card-body p-5">
-                            <span class="badge bg-danger mb-2">Live Application - Enterprise System</span>
-                            <h3 class="fw-bold text-navy">Enterprise-Level Smart Roster & Resource Allocation Engine</h3>
-                            <p class="text-muted">Sebuah sistem penjadwalan otomatis berbasis AI yang mampu menyusun ribuan jadwal <em>shift</em> tanpa bentrok dalam hitungan detik . Menggunakan algoritma tingkat lanjut (Min-Conflicts & Tabu Search) untuk memastikan efisiensi tenaga kerja dan penggunaan ruangan .</p>
-                            <ul class="text-muted">
-                                <li><strong>Keunggulan Bisnis:</strong> Mengotomatisasi sistem <em>shift</em> yang rumit (sangat cocok untuk operasional hotel 24 jam) .</li>
-                                <li><strong>Teknologi:</strong> PHP, MySQL, Arsitektur AI Heuristik, JWT Security .</li>
-                            </ul>
-                            <a href="http://85.122.114.74:9000/frontend/login.html" target="_blank" class="btn btn-navy bg-navy text-white mt-3"><i class="bi bi-box-arrow-up-right me-2"></i> Coba Live Demo Roster</a>
+                            <span class="badge bg-success mb-2">Freelance Collaborative Project - Healthcare & Enterprise</span>
+                            <h3 class="fw-bold text-navy">Hospital-Grade LAN & IP-PBX Telephony System (RS Leona Kupang)</h3>
+                            <p class="text-muted">Proyek implementasi infrastruktur telekomunikasi dan jaringan fisik skala gedung yang saya kerjakan secara kolaboratif bersama seorang praktisi IT profesional (ketika saya masih berstatus mahasiswa). Bertanggung jawab langsung dalam instalasi jalur kabel LAN serta konfigurasi sistem VoIP terpusat untuk menunjang operasional rumah sakit.</p>
+                            <div class="row text-muted mt-3">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark"><i class="bi bi-tools me-2"></i> Lingkup Teknis:</h6>
+                                    <ul>
+                                        <li>Penarikan dan penyusunan kabel jaringan UTP/RJ45 skala gedung untuk konektivitas data antar-departemen medis 24/7.</li>
+                                        <li>Konfigurasi sentral IP-PBX (VoIP) untuk memfasilitasi komunikasi suara interkom antar-ruangan medis/staf 100% bebas pulsa publik.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark"><i class="bi bi-building-check me-2"></i> Relevansi Industri Perhotelan:</h6>
+                                    <ul>
+                                        <li>Arsitektur jaringan ini identik dengan kebutuhan Palm Springs Hotel Dili dalam mengelola infrastruktur kabel LAN kamar, Wi-Fi terpusat, dan sistem telepon PABX interkom antarkamar. Pengalaman berkolaborasi dengan profesional IT sejak kuliah membuktikan kesiapan kerja di standar <em>enterprise</em>.</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Bintang Utama 2: AI Hotel Assistant -->
+                <!-- 2. Koperasi Internal BI Kupang - VERSI REVISI -->
+                <div class="col-lg-12 mb-4">
+                    <div class="card card-project flex-md-row border-start border-4 border-info">
+                        <div class="card-body p-5">
+                            <span class="badge bg-info text-dark mb-2">Freelance / Shadow Developer - Financial System</span>
+                            <h3 class="fw-bold text-navy">Pengembangan Sistem Informasi Koperasi Internal (Support Project: Bank Indonesia Cabang Kupang)</h3>
+                            <p class="text-muted">Bertindak sebagai pengembang lepas (<em>freelance developer</em>) yang mengambil alih pengerjaan teknis untuk mendukung penyelesaian proyek Praktik Kerja Lapangan (PKL) mahasiswa senior di Bank Indonesia Cabang Kupang. Dipercaya untuk mengeksekusi kebutuhan pihak internal bank menjadi sebuah sistem aplikasi yang fungsional.</p>
+                            <div class="row text-muted mt-3">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark"><i class="bi bi-code-slash me-2"></i> Eksekusi Teknis:</h6>
+                                    <ul>
+                                        <li>Menerjemahkan permintaan (<em>requirement</em>) bisnis dari staf internal institusi menjadi arsitektur database dan logika kode yang nyata.</li>
+                                        <li>Membangun modul digitalisasi alur pendataan finansial (simpan pinjam) dan manajemen keanggotaan.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark"><i class="bi bi-person-check-fill me-2"></i> Bukti Kompetensi:</h6>
+                                    <ul>
+                                        <li>Proyek ini membuktikan tingginya jam terbang dan keandalan teknis dalam menangani data keuangan yang terstruktur. Kompetensi ini sangat siap diterapkan untuk membangun atau mengelola sistem <em>payroll</em> maupun inventaris operasional di lingkungan perhotelan.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Proyek Micro-ISP & Compliance (MikroTik RB750) -->
+                <div class="col-lg-12 mb-4">
+                    <div class="card card-project flex-md-row border-start border-4 border-warning">
+                        <div class="card-body p-5">
+                            <span class="badge badge-compliance mb-2">Network Engineering & Risk Governance</span>
+                            <h3 class="fw-bold text-navy">Public Hotspot Management & IT Compliance (Micro-ISP)</h3>
+                            <p class="text-muted">Merancang dan mengoperasikan sistem jaringan <em>hotspot</em> publik mandiri. Melakukan manajemen lalu lintas data tingkat tinggi serta pengelolaan portal otentikasi voucher pengguna.</p>
+                            <div class="row text-muted mt-3">
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark"><i class="bi bi-cpu-fill me-2"></i> Spesifikasi Teknis:</h6>
+                                    <ul>
+                                        <li>Implementasi <strong>MikroTik RouterBoard RB750</strong> sebagai sentral gateway router.</li>
+                                        <li>Konfigurasi manajemen <em>bandwidth</em> (Queue), pembatasan <strong>hak akses kuota data</strong>, dan <strong>time-limit</strong> pengguna.</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h6 class="fw-bold text-dark"><i class="bi bi-shield-check me-2"></i> IT Governance & Risiko:</h6>
+                                    <ul>
+                                        <li>Secara proaktif melakukan evaluasi mandiri dan memastikan kepatuhan regulasi telekomunikasi (IT Compliance).</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Roster Engine (Enterprise AI) -->
+                <div class="col-lg-12 mb-4">
+                    <div class="card card-project flex-md-row border-start border-4 border-secondary">
+                        <div class="card-body p-5">
+                            <span class="badge bg-secondary mb-2">Live Application - Enterprise System</span>
+                            <h3 class="fw-bold text-navy">Enterprise-Level Smart Roster & Resource Allocation Engine</h3>
+                            <p class="text-muted">Sistem penjadwalan otomatis berbasis AI yang mampu menyusun ribuan jadwal <em>shift</em> kerja tanpa bentrok dalam hitungan detik. Menggunakan algoritma tingkat lanjut (Min-Conflicts & Tabu Search) untuk memastikan efisiensi penugasan staf 24 jam.</p>
+                            <a href="http://85.122.114.74:9000/frontend/login.html" target="_blank" class="btn btn-navy bg-navy text-white mt-2"><i class="bi bi-box-arrow-up-right me-2"></i> Coba Live Demo Roster</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. AI Hotel Assistant -->
                 <div class="col-lg-12 mb-4">
                     <div class="card card-project flex-md-row border-start border-4 border-danger">
                         <div class="card-body p-5">
-                            <span class="badge bg-primary mb-2">Live Prototype - Hospitality AI</span>
+                            <span class="badge bg-danger mb-2">Live Prototype - Hospitality AI</span>
                             <h3 class="fw-bold text-navy">AI-Powered Virtual Concierge & HR Assistant</h3>
-                            <p class="text-muted">Purwarupa (*prototype*) cerdas berbasis API Generative AI yang dirancang khusus untuk industri perhotelan. Sistem ini mampu melayani pertanyaan pelanggan secara <em>real-time</em> terkait fasilitas hotel, ketersediaan kamar, hingga mengelola pertanyaan rekrutmen pegawai baru.</p>
-                            <ul class="text-muted">
-                                <li><strong>Studi Kasus Khusus:</strong> Palm Springs Hotel Dili.</li>
-                                <li><strong>Keunggulan Bisnis:</strong> Mengurangi beban <em>Customer Service</em> manusia, merespons tamu 24/7, dan meningkatkan citra profesional hotel di era digital.</li>
-                                <li><strong>Teknologi:</strong> Google Gemini Pro API, PHP cURL, Prompt Engineering, Asynchronous JavaScript.</li>
-                            </ul>
-                            <a href="http://85.122.114.74:9000/palmsprings_demo.html" target="_blank" class="btn btn-danger text-white mt-3"><i class="bi bi-robot me-2"></i> Coba Live Demo AI Assistant</a>
+                            <p class="text-muted">Purwarupa cerdas berbasis API Generative AI yang dirancang khusus untuk operasional perhotelan modern. Sistem ini memfasilitasi interaksi real-time untuk pelayanan tamu hingga menjawab pertanyaan seputar rekrutmen.</p>
+                            <a href="http://85.122.114.74:9000/palmsprings_demo.html" target="_blank" class="btn btn-danger text-white mt-2"><i class="bi bi-robot me-2"></i> Coba Live Demo AI Assistant</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Case Study 2: Perpustakaan / Billing -->
+                <!-- 6. Automated Notification & Billing -->
                 <div class="col-md-6">
                     <div class="card card-project h-100">
                         <div class="card-body p-4">
-                            <span class="badge bg-secondary mb-2">Studi Kasus Bisnis</span>
+                            <span class="badge bg-dark text-white mb-2">Studi Kasus Bisnis</span>
                             <h4 class="fw-bold text-navy">Automated Notification & Billing System</h4>
-                            <p class="text-muted">Pengembangan sistem manajemen aset yang terintegrasi dengan SMS Gateway untuk pengingat otomatis dan perhitungan denda finansial secara <em>real-time</em> (konsep yang sejalan dengan sistem reservasi / <em>Property Management System</em>) .</p>
+                            <p class="text-muted">Sistem manajemen inventaris yang terintegrasi dengan SMS Gateway untuk peringatan dini dan perhitungan denda finansial otomatis.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Case Study 3: Algoritma Genetika -->
+                <!-- 7. Genetic Algorithm -->
                 <div class="col-md-6">
                     <div class="card card-project h-100">
                         <div class="card-body p-4">
-                            <span class="badge bg-secondary mb-2">Penelitian Akademik Dasar</span>
+                            <span class="badge bg-dark text-white mb-2">Penelitian Akademik</span>
                             <h4 class="fw-bold text-navy">Optimization System via Genetic Algorithm</h4>
-                            <p class="text-muted">Merancang formula matematika kompleks berbasis Algoritma Genetika untuk memecahkan masalah efisiensi biaya bahan baku . Membuktikan kemampuan analisis data tingkat lanjut dan pemecahan masalah dengan komputasi .</p>
+                            <p class="text-muted">Perancangan matematis berbasis algoritma genetika (AI) untuk efisiensi distribusi sumber daya dan alokasi biaya operasional.</p>
                         </div>
                     </div>
                 </div>
@@ -195,8 +265,8 @@
     <!-- KONTAK -->
     <section id="contact" class="section-padding text-center bg-white">
         <div class="container">
-            <h2 class="text-navy fw-bold mb-4">Siap Membawa Dampak Nyata?</h2>
-            <p class="lead mb-4">Infrastruktur yang stabil dan sistem yang otomatis adalah kunci efisiensi bisnis . Mari berdiskusi bagaimana saya bisa berkontribusi untuk departemen IT Anda .</p>
+            <h2 class="text-navy fw-bold mb-4">Siap Membawa Dampak Nyata untuk Palm Springs Hotel Dili</h2>
+            <p class="lead mb-4">Infrastruktur yang stabil, jaringan yang aman, dan sistem otomasi yang efisien adalah kunci keunggulan operasional perhotelan modern.</p>
             <div class="d-flex justify-content-center gap-3">
                 <a href="mailto:rogernahak02@gmail.com" class="btn btn-outline-dark btn-lg"><i class="bi bi-envelope-fill me-2"></i> Email Saya</a>
                 <a href="https://wa.me/6285339644886" target="_blank" class="btn btn-success btn-lg"><i class="bi bi-whatsapp me-2"></i> WhatsApp</a>
@@ -206,7 +276,7 @@
 
     <footer class="bg-navy text-white text-center py-4">
         <div class="container">
-            <small>&copy; 2026 Philipus Rogerio Nahak. Crafted for IT Management Professionalism.</small>
+            <small>&copy; 2026 Philipus Rogerio Nahak, S.Kom. Crafted for IT Management Professionalism.</small>
         </div>
     </footer>
 
